@@ -15,4 +15,6 @@ group :test do
   gem "factory_girl", :git => "git://github.com/szimek/factory_girl.git", :branch => "rails3"
   gem "faker"
   gem "launchy" # used to "show me the page"
+  gem "ZenTest"
+  gem "autotest-rails"
 end

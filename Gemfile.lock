@@ -1,5 +1,5 @@
 --- 
-hash: 43c1226a49c4a31815cef613f4be76ea060ff208
+hash: 622e4b89f56d7f19a8937dc2ed894e04016ef85d
 sources: 
 - Git: 
     git: git://github.com/szimek/factory_girl.git
@@ -16,6 +16,8 @@ sources:
 specs: 
 - rake: 
     version: 0.8.7
+- ZenTest: 
+    version: 4.3.3
 - abstract: 
     version: 1.0.0
 - activesupport: 
@@ -54,6 +56,8 @@ specs:
     version: 3.0.0.beta4
 - activeresource: 
     version: 3.0.0.beta4
+- autotest-rails: 
+    version: 4.1.0
 - bundler: 
     version: 0.9.26
 - culerity: 
@@ -153,6 +157,14 @@ dependencies:
     group: 
     - :test
   launchy: 
+    version: ">= 0"
+    group: 
+    - :test
+  ZenTest: 
+    version: ">= 0"
+    group: 
+    - :test
+  autotest-rails: 
     version: ">= 0"
     group: 
     - :test
