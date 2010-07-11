@@ -9,9 +9,10 @@ The caffeine logger. A BDD tutorial.
 
 ## Setup
 
-1. rvm install 1.9.1
-2. rvm gemset create bespresso
-3. git clone git://github.com/jbpros/bespresso.git
-4. cd bespresso
-5. gem install bundler
-6. bundle install
+1. rvm install 1.8.7 # only if not present in your RVM rubies
+2. rvm use 1.8.7
+3. rvm gemset create bespresso
+4. git clone git://github.com/jbpros/bespresso.git
+5. cd bespresso
+6. gem install bundler
+7. bundle install
