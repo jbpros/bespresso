@@ -1,0 +1,20 @@
+<table>
+  <thead>
+    <tr>
+      <th>Drinker</th>
+      <th>Espressos</th>
+      <th>Lungos</th>
+      <th>Amount due</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @drinkers.each do |drinker| -%>
+      <tr id="drinker-<%= drinker.id %>">
+        <td><%= drinker.name %></td>
+        <td><%= drinker.espressos %></td>
+        <td><%= drinker.lungos %></td>
+        <td><%= drinker.amount_due %></td>
+     </tr>
+    <% end -%>
+  </tbody>
+</table>
